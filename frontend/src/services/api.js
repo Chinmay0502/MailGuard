@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://spam-mail-backend.onrender.com",
+  baseURL: "https://spam-mail-ml.onrender.com/",
   headers: {
     "Content-Type": "application/json",
   },
